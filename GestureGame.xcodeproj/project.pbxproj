@@ -11,6 +11,10 @@
 		43CFCEA2261D835600D32263 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFCEA1261D835600D32263 /* ContentView.swift */; };
 		43CFCEA4261D835A00D32263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43CFCEA3261D835A00D32263 /* Assets.xcassets */; };
 		43CFCEA7261D835A00D32263 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43CFCEA6261D835A00D32263 /* Preview Assets.xcassets */; };
+		43CFCEB1261D8F0A00D32263 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFCEB0261D8F0900D32263 /* Name.swift */; };
+		43CFCEB4261DA4D800D32263 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFCEB3261DA4D800D32263 /* GameView.swift */; };
+		43CFCEE52626F19000D32263 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFCEE42626F18F00D32263 /* test.swift */; };
+		43CFCEE82626F1CB00D32263 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CFCEE72626F1CB00D32263 /* Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		43CFCEA3261D835A00D32263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43CFCEA6261D835A00D32263 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		43CFCEA8261D835A00D32263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43CFCEB0261D8F0900D32263 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		43CFCEB3261DA4D800D32263 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		43CFCEE42626F18F00D32263 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		43CFCEE72626F1CB00D32263 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 			children = (
 				43CFCE9F261D835600D32263 /* GestureGameApp.swift */,
 				43CFCEA1261D835600D32263 /* ContentView.swift */,
+				43CFCEB3261DA4D800D32263 /* GameView.swift */,
 				43CFCEA3261D835A00D32263 /* Assets.xcassets */,
 				43CFCEA8261D835A00D32263 /* Info.plist */,
 				43CFCEA5261D835A00D32263 /* Preview Content */,
+				43CFCEB0261D8F0900D32263 /* Name.swift */,
+				43CFCEE42626F18F00D32263 /* test.swift */,
+				43CFCEE72626F1CB00D32263 /* Environment.swift */,
 			);
 			path = GestureGame;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43CFCEB1261D8F0A00D32263 /* Name.swift in Sources */,
+				43CFCEE82626F1CB00D32263 /* Environment.swift in Sources */,
 				43CFCEA2261D835600D32263 /* ContentView.swift in Sources */,
+				43CFCEB4261DA4D800D32263 /* GameView.swift in Sources */,
+				43CFCEE52626F19000D32263 /* test.swift in Sources */,
 				43CFCEA0261D835600D32263 /* GestureGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
